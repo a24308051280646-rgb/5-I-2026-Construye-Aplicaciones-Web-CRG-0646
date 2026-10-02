@@ -31,5 +31,4 @@ Ingresa tu nombre:
 <input type="submit" value="enviar">
 </form>
 
-</head>
 </html>
