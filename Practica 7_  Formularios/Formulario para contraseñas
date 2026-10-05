@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+<h1>Formularios</h1>
+<p>Un formulario permite al visitante cargar datos y que sean enviados al servidor.</p>
+<p>El HTML no tiene la responsabilidad de registrar los datos en el servidor,
+esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP,
+ASP, ASP.NET, Node, etc.)
+</p>
+<!-- Igual que en el anterior formulario aqui nos habla de para que sirven los formularios  -->
+
+<form action="" method="post"> <!-- Abre el formulario y manda toda su informacion de manera oculta -->
+Ingresa tu usuario:
+<input type="text" name="usuario"> <!-- Zona donde deberemos ingresar nuestro el usuario  -->
+Ingresa tu contraseña:
+<input type="password" name="pass"> <!-- Zona donde ingresaremos nuestra contraseña   -->
+<br> <!-- Usa un salto de linea  -->
+<input type="submit" value="enviar"> <!-- Boton que envia la informacion del formulario   -->
+<input type="reset" value="borrar"> <!-- Boton que elimina la informacion ingresada por el usuario   -->
+</form>  <!-- Cierra el formulario -->
