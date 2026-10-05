@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Formularios en HTML</title>
-<!-- Libreria de iconos en linea -->
 
+<!-- Libreria de iconos en linea -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
 awesome/7.3.1/css/all.min.css">
 
@@ -20,16 +20,16 @@ ASP, ASP.NET, Node, etc.)
 <!-- Nos habla sobre para que sirve el formulario al igual que en los anteriores codigos -->
 
 <h2>Formulario con text area</h2>
-<form action="" method="post"> <!--  -->
+<form action="" method="post"> <!-- Abre el formulario y manda la informacion de manera oculta -->
 Ingresa tu nombre:
-<input type="text" name="nombre">
-<br>
+<input type="text" name="nombre"> <!-- Zona donde ingresaremos el nombre de la persona  -->
+<br> <!--Utiliza un salto de lnea -->
 Ingresa tu correo:
-<input type="email" name="correo">
-<br>
+<input type="email" name="correo"> <!-- Zona donde pondremos nuestro correo electronico-->
+<br> <!-- Utiliza otro salto de linea -->
 Ingresa tus comentarios:
-<textarea name="comentarios" rows="1" cols="10"></textarea>
-<br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
-</form>
+<textarea name="comentarios" rows="1" cols="10"></textarea> <!-- Lugar donde el usuario podra poner sus comentarios  -->
+<br> <!-- Utiliza un ultimo salto de linea -->
+<input type="submit" value="enviar"> <!-- Boton para mandar todos los datos ingresados por el usuario -->
+<input type="reset" value="borrar"> <!-- Boton para eliminar todos los datos ingresados por el usuario  -->
+</form> <!-- Cierra el formulario -->
