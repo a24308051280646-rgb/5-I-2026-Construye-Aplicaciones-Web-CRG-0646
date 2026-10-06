@@ -1,0 +1,32 @@
+<!-- Cesar Rangel Garcia-->
+<!-- 0646-->
+<!-- 5ºI-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+<h1>Formularios</h1>
+<p>Un formulario permite al visitante cargar datos y que sean enviados al servidor.</p>
+<p>El HTML no tiene la responsabilidad de registrar los datos en el servidor,
+esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP,
+ASP, ASP.NET, Node, etc.)
+</p> 
+<!-- Todo lo anterior nos hablo sobre los datos que guarda y que se puede hacer en un formulario -->
+
+<h2>Formulario con campos ocultos</h2>
+<form action="" method="post"> <!-- Abre el formulario -->
+<input type="hidden" name="hora" value="3:30"> <!-- Campo invisible que guarda la hora de envio -->
+Ingresa tu nombre:
+<input type="text" name="nombre"> <!-- Campo para ingresar nombre -->
+<br>
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button> <!-- Boton de enviar  -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button> <!-- Boton de borrar  -->
+</form> <!-- Cierra el formulario -->
