@@ -1,3 +1,6 @@
+<!-- Cesar Rangel Garcia-->
+<!-- 0646-->
+<!-- 5ºI-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,17 +19,19 @@ awesome/7.3.1/css/all.min.css">
 <p>El HTML no tiene la responsabilidad de registrar los datos en el servidor,
 esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP,
 ASP, ASP.NET, Node, etc.)
-</p>
+</p> 
+<!-- Todo lo anterior nos hablo sobre los datos que guarda y que se puede hacer en un formulario -->
+
 
 <h2>Formularios con checkbox</h2>
-<form action="" method="post">
+<form action="" method="post"> <!-- Sirve para enviar informacion de forma oculta y abrir el formulario -->
 Ingresa tu nombre:
-<input type="text" name="nombre">
-<br>
+<input type="text" name="nombre"> <!-- Zona donde ingresamos el nombre del usuario -->
+<br> <!-- Utiliza un salto de linea -->
 Selecciona los lenguajes que conozcas:
-<br>
-<input type="checkbox" name="Java">Java <br>
-<input type="checkbox" name="Python"> Python <br>
-<input type="checkbox" name="C#">C# <br>
-<input type="checkbox" name="Flutter"> Flutter <br>
-</form>
+<br> <!-- Utiliza otro salto de linea -->
+<input type="checkbox" name="Java">Java <br> <!-- crea una casilla de verificación que el usuario puede marcar o desmarcar la opcion de java-->
+<input type="checkbox" name="Python"> Python <br> <!-- crea una casilla de verificación que el usuario puede marcar o desmarcar la opcion de python -->
+<input type="checkbox" name="C#">C# <br> <!-- crea una casilla de verificación que el usuario puede marcar o desmarcar la opcion de c#-->
+<input type="checkbox" name="Flutter"> Flutter <br> <!-- crea una casilla de verificación que el usuario puede marcar o desmarcar la opcion -->
+</form> <!-- Se cierra el formilario -->
