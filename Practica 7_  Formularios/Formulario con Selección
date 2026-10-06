@@ -22,22 +22,22 @@ ASP, ASP.NET, Node, etc.)
 <!-- Todo lo anterior nos hablo sobre los datos que guarda y que se puede hacer en un formulario -->
 
 <h2>Formularios con seleccion</h2>
-<form action="" method="post">
+<form action="" method="post"> <!-- Sirve para enviar informacion de forma oculta y abrir el formulario -->
 Ingresa tu nombre:
-<input type="text" name="nombre">
+<input type="text" name="nombre"> <!-- Zona donde ingresamos el nombre del usuario -->
 <br>
 Selecciona tu pais:
-<select name="pais">
-<option value="1">Argentina</option>
-<option value="2">España</option>
-<option value="3">Mexico</option>
-<option value="4">Guatemala</option>
-<option value="5">Honduras</option>
-<option value="6">El Salvador</option>
-<option value="7">Venezuela</option>
-<option value="8">Colombia</option>
-</select>
+<select name="pais"> <!-- se pone un menu de seleccion de algun pais -->
+<option value="1">Argentina</option> <!-- La opcion de elegir el pais de argentina -->
+<option value="2">España</option> <!-- La opcion de elegir el pais de España -->
+<option value="3">Mexico</option> <!-- La opcion de elegir el pais de Mexico -->
+<option value="4">Guatemala</option> <!-- La opcion de elegir el pais de Guatemala -->
+<option value="5">Honduras</option> <!-- La opcion de elegir el pais de Honduras -->
+<option value="6">El Salvador</option> <!-- La opcion de elegir el pais de El Salvador -->
+<option value="7">Venezuela</option> <!-- La opcion de elegir el pais de Venezuela -->
+<option value="8">Colombia</option> <!-- La opcion de elegir el pais de Colombia -->
+</select> <!-- Cierra el menu de selecciones -->
 <br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
-</form>
+<input type="submit" value="enviar"> <!-- Boton que envia los datos que puso el usuario -->
+<input type="reset" value="borrar"> <!-- Boton que borra los datos ingresados por el usuario -->
+</form> <!-- Se cierra el formulario -->
