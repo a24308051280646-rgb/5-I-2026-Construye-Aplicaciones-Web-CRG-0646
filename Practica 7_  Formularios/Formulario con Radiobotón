@@ -22,18 +22,18 @@ ASP, ASP.NET, Node, etc.)
 <!-- Todo lo anterior nos hablo sobre los datos que guarda y que se puede hacer en un formulario -->
 
 <h2>Formularios con Radioboton</h2>
-<form action="" method="post">
+<form action="" method="post"> <!-- Sirve para enviar informacion de forma oculta y abrir el formulario -->
 Ingresa tu nombre:
-<input type="text" name="nombre">
-<br>
+<input type="text" name="nombre"> <!-- Zona donde ingresamos el nombre del usuario -->
+<br> 
 Selecciona el maximo de estudios que tienes:
 <br>
-<input type="radio" name="estudios" value="1">Sin estudios <br>
-<input type="radio" name="estudios" value="2">Primaria <br>
-<input type="radio" name="estudios" value="3">Secundaria <br>
-<input type="radio" name="estudios" value="4">Preparatoria <br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
+<input type="radio" name="estudios" value="1">Sin estudios <br> <!-- Crea una opcion de boton cuando no tienes estudios  -->
+<input type="radio" name="estudios" value="2">Primaria <br> <!-- Crea una opcion de boton cuando solo tienes primaria  -->
+<input type="radio" name="estudios" value="3">Secundaria <br> <!-- Crea una opcion de boton cuando tienes secundaria  -->
+<input type="radio" name="estudios" value="4">Preparatoria <br> <!-- Crea una opcion de boton cuando tienes hasta preparatoria   -->
+<input type="submit" value="enviar"> <!-- Boton que envia el formulario contestado   -->
+<input type="reset" value="borrar"> <!-- Boton que borra todos los datos ingresados por el alumno   -->
 </form>
 </body>
 </html>
