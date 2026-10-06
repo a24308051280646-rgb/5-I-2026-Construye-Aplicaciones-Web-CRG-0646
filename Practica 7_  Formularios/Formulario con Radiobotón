@@ -34,6 +34,5 @@ Selecciona el maximo de estudios que tienes:
 <input type="radio" name="estudios" value="4">Preparatoria <br> <!-- Crea una opcion de boton cuando tienes hasta preparatoria   -->
 <input type="submit" value="enviar"> <!-- Boton que envia el formulario contestado   -->
 <input type="reset" value="borrar"> <!-- Boton que borra todos los datos ingresados por el alumno   -->
-</form>
-</body>
-</html>
+</form> <!-- Cierra el formulario  -->
+
