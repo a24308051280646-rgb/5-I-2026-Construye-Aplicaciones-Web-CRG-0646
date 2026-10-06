@@ -1,0 +1,48 @@
+<!-- Cesar Rangel Garcia-->
+<!-- 0646-->
+<!-- 5ºI-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+<h1>Formularios</h1>
+<p>Un formulario permite al visitante cargar datos y que sean enviados al servidor.</p>
+<p>El HTML no tiene la responsabilidad de registrar los datos en el servidor,
+esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP,
+ASP, ASP.NET, Node, etc.)
+</p> 
+<!-- Todo lo anterior nos hablo sobre los datos que guarda y que se puede hacer en un formulario -->
+
+<h2>Formularios con agrupamiento</h2>
+<form action="" method="post"> <!-- Abre el formulario estructurado -->
+<fieldset> <!-- Agrupa la primera seccion de campos -->
+<legend>Datos personales</legend> <!-- Titulo del primer cuadro de grupo -->
+Nombre y apellido:
+<input type="text" name="nombre_apellido"><br> <!-- Campo para el nombre completo -->
+Documento valido:
+<input type="file" name="documento"><br> <!-- Campo para subir documento oficial -->
+Fecha de nacimiento:
+<input type="date" name="fecha_nacimiento"> <!-- Selector para fecha de nacimiento -->
+</fieldset> <!-- Cierra la primera seccion -->
+
+<fieldset> <!-- Agrupa la segunda seccion de campos -->
+<legend>Datos de estudio:</legend> <!-- Titulo del segundo cuadro de grupo -->
+Nombre de la escuela:
+<input type="text" name="escuela"><br> <!-- Campo para ingresar el nombre de la escuela -->
+Certificado valido:
+<input type="file" name="certificado"><br> <!-- Campo para subir el certificado escolar -->
+Fecha de egreso:
+<input type="date" name="fecha_egreso"> <!-- Selector para fecha de egreso -->
+</fieldset> <!-- Cierra la segunda seccion -->
+<br>
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button> <!-- Boton para enviar todo el paquete de datos -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button> <!-- Boton para limpiar ambas secciones -->
+</form> <!-- Cierra el formulario -->
