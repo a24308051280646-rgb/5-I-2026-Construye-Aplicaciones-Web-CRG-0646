@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon México</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200 font-sans">
+
+    <header class="bg-gray-900 text-white p-3 flex items-center justify-between">
+        <h1 class="text-xl font-bold">amazon<span class="text-xs text-gray-400">.com.mx</span></h1>
+        
+        <div class="flex flex-1 max-w-xl mx-4">
+            <input type="text" placeholder="Buscar en Amazon" class="w-full p-2 text-black rounded-l outline-none">
+            <button class="bg-yellow-500 hover:bg-yellow-600 px-4 py-2 rounded-r text-black font-bold">Buscar</button>
+        </div>
+
+        <div class="text-xs">
+            <p>Hola, Identifícate</p>
+            <p class="font-bold">Cuenta y Listas</p>
+        </div>
+    </header>
+
+    <nav class="bg-gray-800 text-white text-sm p-2 flex gap-4 overflow-x-auto">
+        <a href="#">Todo</a>
+        <a href="#">Prime Video</a>
+        <a href="#">Cupones</a>
+        <a href="#">Servicio al Cliente</a>
+        <a href="#">Ofertas del Día</a>
+        <a href="#">Listas</a>
+        <a href="#">Tarjetas de Regalo</a>
+        <a href="#">Vender</a>
+    </nav>
+
+    <main class="p-4 max-w-7xl mx-auto space-y-6">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-lg mb-2">Imprescindibles para la cocina</h3>
+                <img src="cocina.png" alt="Cocina" class="w-full h-64 object-cover rounded-lg">
+            </div>
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-lg mb-2">Todo para tu belleza</h3>
+                <img src="Belleza.png" alt="Belleza" class="w-full h-64 object-cover rounded-lg">
+            </div>
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-lg mb-2">Empieza a lucirte</h3>
+                <img src="lucirte.png" alt="Lucirte" class="w-full h-64 object-cover rounded-lg">
+            </div>
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-lg mb-2">Juguetes para los más pequeños</h3>
+                <img src="niños.png" alt="Niños" class="w-full h-64 object-cover rounded-lg">
+            </div>
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-lg mb-2">Mejora tu PC aquí</h3>
+                <img src="pc.png" alt="PC" class="w-full h-64 object-cover rounded-lg">
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-md mb-2">Conéctate con electrónicos</h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <img src="auriculares.png" alt="Auriculares" class="w-full h-28 object-contain rounded">
+                        <p class="text-xs text-center mt-1 font-medium">Auriculares</p>
+                    </div>
+                    <div>
+                        <img src="Tablet.png" alt="Tabletas" class="w-full h-28 object-contain rounded">
+                        <p class="text-xs text-center mt-1 font-medium">Tabletas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-md mb-2">Equipos y accesorios</h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <img src="compu.png" alt="Escritorio" class="w-full h-28 object-contain rounded">
+                        <p class="text-xs text-center mt-1 font-medium">Escritorio</p>
+                    </div>
+                    <div>
+                        <img src="portatil.png" alt="Portátiles" class="w-full h-28 object-contain rounded">
+                        <p class="text-xs text-center mt-1 font-medium">Portátiles</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-md mb-2">Equípate para estar fit</h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <img src="ropa.png" alt="Ropa" class="w-full h-28 object-contain rounded">
+                        <p class="text-xs text-center mt-1 font-medium">Ropa</p>
+                    </div>
+                    <div>
+                        <img src="Reloj.png" alt="Rastreadores" class="w-full h-28 object-contain rounded">
+                        <p class="text-xs text-center mt-1 font-medium">Rastreadores</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-xl shadow">
+                <h3 class="font-bold text-md mb-2">Ropa por menos de USD 25</h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <img src="Mujer.png" alt="De mujeres" class="w-full h-28 object-cover rounded">
+                        <p class="text-xs text-center mt-1 font-medium">De mujeres</p>
+                    </div>
+                    <div>
+                        <img src="hombre.png" alt="De hombres" class="w-full h-28 object-cover rounded">
+                        <p class="text-xs text-center mt-1 font-medium">De hombres</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-md mx-auto my-6 p-6 bg-white rounded-xl shadow">
+            <h2 class="text-xl font-bold mb-4 border-b pb-2">Iniciar Sesion</h2>
+            <form action="" method="post">
+                <p class="mb-1 text-sm font-medium">Ingresa tu usuario:</p>
+                <input type="text" name="usuario" class="w-full p-2 border border-gray-300 rounded mb-3">
+
+                <p class="mb-1 text-sm font-medium">Ingresa tu contraseña:</p>
+                <input type="password" name="pass" class="w-full p-2 border border-gray-300 rounded mb-3">
+
+                <br>
+                <div class="flex gap-2">
+                    <input type="submit" value="enviar" class="bg-yellow-400 hover:bg-yellow-500 px-4 py-1.5 rounded cursor-pointer font-bold text-sm">
+                    <input type="reset" value="borrar" class="bg-gray-200 hover:bg-gray-300 px-4 py-1.5 rounded cursor-pointer font-bold text-sm">
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+</html>
